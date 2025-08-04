@@ -56,3 +56,23 @@ Contributions are welcome! Feel free to fork the repository and submit pull requ
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/AbhaySR02/LeetCode-Python-DSA/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
+## Binary Search
+|  |
+| ------- |
+| [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/AbhaySR02/LeetCode-Python-DSA/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
+## Sliding Window
+|  |
+| ------- |
+| [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/AbhaySR02/LeetCode-Python-DSA/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
+## Prefix Sum
+|  |
+| ------- |
+| [2229-maximum-fruits-harvested-after-at-most-k-steps](https://github.com/AbhaySR02/LeetCode-Python-DSA/tree/master/2229-maximum-fruits-harvested-after-at-most-k-steps) |
+<!---LeetCode Topics End-->
