@@ -1,4 +1,5 @@
 class Solution:
     def defangIPaddr(self, address: str) -> str:
-        return address.replace(".","[.]")
+        n = address.replace(".","[.]")
+        return n
         
