@@ -85,4 +85,5 @@ This project is open source and available under the [MIT License](LICENSE).
 |  |
 | ------- |
 | [2383-add-two-integers](https://github.com/AbhaySR02/LeetCode-Python-DSA/tree/master/2383-add-two-integers) |
+| [2812-find-the-maximum-achievable-number](https://github.com/AbhaySR02/LeetCode-Python-DSA/tree/master/2812-find-the-maximum-achievable-number) |
 <!---LeetCode Topics End-->
