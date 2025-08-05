@@ -81,4 +81,8 @@ This project is open source and available under the [MIT License](LICENSE).
 |  |
 | ------- |
 | [0940-fruit-into-baskets](https://github.com/AbhaySR02/LeetCode-Python-DSA/tree/master/0940-fruit-into-baskets) |
+## Math
+|  |
+| ------- |
+| [2383-add-two-integers](https://github.com/AbhaySR02/LeetCode-Python-DSA/tree/master/2383-add-two-integers) |
 <!---LeetCode Topics End-->
