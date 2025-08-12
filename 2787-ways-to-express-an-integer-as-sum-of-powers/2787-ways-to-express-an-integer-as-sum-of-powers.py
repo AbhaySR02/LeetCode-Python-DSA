@@ -1,35 +1,27 @@
 class Solution:
     def numberOfWays(self, n: int, x: int) -> int:
+        
+        # --- Step 1: Generate the "Building Blocks" ---
         candidates = []
         num = 1
         while num ** x <= n:
             candidates.append(num ** x)
             num += 1
-
-        memo = {}
-
-        def solve(index, target):
-          
-            if target == 0:
-                return 1
-
-            if target < 0 or index >= len(candidates):
-                return 0
-
         
-            if (index, target) in memo:
-                return memo[(index, target)]
-
-           
-            ways_if_used = solve(index + 1, target - candidates[index])
-   
-            ways_if_not_used = solve(index + 1, target)
-            
-       
-            total_ways = ways_if_used + ways_if_not_used
-           
-            memo[(index, target)] = total_ways
-            return total_ways
-
+        # --- Step 2: Bottom-Up Dynamic Programming ---
+        # dp[i] will store the number of ways to make the sum 'i'.
+        # The size is n+1 to accommodate sums from 0 to n.
+        dp = [0] * (n + 1)
+        
+        # Base Case: There is exactly one way to make a sum of 0 (by choosing no numbers).
+        dp[0] = 1
+        
         MOD = 10**9 + 7
-        return solve(0, n) % MOD
+
+        # Iterate through each building block (candidate number).
+        for cand in candidates:
+            for j in range(n, cand - 1, -1):
+                dp[j] = (dp[j] + dp[j - cand]) % MOD
+        
+        # The final answer is the number of ways to make the sum 'n'.
+        return dp[n]
